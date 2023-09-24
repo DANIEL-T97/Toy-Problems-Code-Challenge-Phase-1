@@ -12,9 +12,10 @@ It gives the driver information to determine if they are driving within the lega
 Takes speed in terms of kilometers per second (km/s)
 It calculates the demerit points on account of the speed compared to the speed limit.
 It gives them two feedbacks :
-          1. OK if the speed is within the speed limit.
+          
+ 1. OK if the speed is within the speed limit.
                             
-           2. The demerit points passed the speed limit and a message of "license suspended" when the demerit points exceeded 12.
+2. The demerit points passed the speed limit and a message of "license suspended" when the demerit points exceeded 12.
 
 #Usage 
 
