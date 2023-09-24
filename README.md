@@ -23,4 +23,38 @@ Key in the speed of the car in Km/s when prompted.
 
 You can run the program in any Javascript environment that supports the console.
 
+#NET SALARY CALCULATOR
+
+#DESCRIPTION
+
+The net salary calculator is a program that enables people to calculate their net salary based on their basic salary, benefits, and statutory deductions.
+
+The program utilizes metrics like pay as you earn(PAYE), National Health Insurance Fund(NHIF), and National Social Security Fund(NSSF) deductions to come up with accurate estimations of the net salary.
+
+#FEATURES
+Accepts basic salary and benefits as inputs.
+calculates PAYE, NSSF, and NHIF based on gross salary and outputs the net salary after all the deductions and salaries.
+
+#USAGE 
+Key in your basic salary and the deductions after the prompt.
+After calculations, the system will display the application of deductions and taxes.
+You can run the program in any Javascript environment that supports the console.
+
+#STUDENT GRADE GENERATOR
+
+#DESCRIPTION
+
+The student grade generator is a program that enables learners to know their student grades when they enter their marks.
+The system has marks distinctions from A to E based on the marks entered.
+
+#FEATURES
+Accepts student marks as only numbers between 0 to 100.
+
+#USAGE
+Key in the respective student marks after the prompt.
+After inputing the marks, the system will display the corresponding student grade.
+The program runs in any javascript environment that supports the console.
+
+
+
                             
