@@ -4,7 +4,7 @@
 #Description
 
 The speed detector is a simple program that takes the speed of a car as input and calculates the amount of demerit points a 
-driver accumulates for driving past the specified speed limit 
+driver accumulates for driving past the specified speed limit. 
 It gives the driver information to determine if they are driving within the legal driving speed.
 
 #Features
@@ -19,7 +19,7 @@ It gives them two feedbacks :
 
 #Usage 
 
-Key in the speed of the car in Km/s when prompted
+Key in the speed of the car in Km/s when prompted.
 
 You can run the program in any Javascript environment that supports the console.
 
