@@ -20,6 +20,7 @@ It gives them two feedbacks :
 #Usage 
 
 Key in the speed of the car in Km/s when prompted
+
 You can run the program in any Javascript environment that supports the console.
 
                             
