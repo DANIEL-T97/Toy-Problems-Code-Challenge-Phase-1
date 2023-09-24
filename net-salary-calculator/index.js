@@ -1,4 +1,4 @@
-function calculatePayee(grossSalary){
+function calculatePayee(grossSalary){ //the Calculate payee function calculates (PAYE) based on the gross salary
     let payee = 0;
     if (grossSalary <= 24000) {
         payee = grossSalary * 0.1;
@@ -16,9 +16,9 @@ function calculatePayee(grossSalary){
 }
 
 //function for NHIF deduction calculations
-function calculateNHIF(grossSalary){
+function calculateNHIF(grossSalary){ //It calculates NHIF based on the gross salary
     let nhif = 0;
-    if(grossSalary <= 5999){
+    if(grossSalary <= 5999){            //the function uses javascript  conditionals to determine monthly amount to be paid for specific salary ranges
         nhif = 150;
     }else if (grossSalary <= 7999){
         nhif = 300;
@@ -59,11 +59,11 @@ function calculateNHIF(grossSalary){
 }
 
 //calculating NSSF deductions
-function calculateNSSF(basicSalary){
+function calculateNSSF(basicSalary){ //The calculateNSSF function calculates NSSF deductiona based on the basic salary
     return basicSalary * 0.06;
 }
 
-//Function to calculate net salary
+//Function to calculate net salary uses basic salary, benefits, payee and the deductions to calculate the net salary
 function calculateNetSalary(basicSalary, benefits) {
     const grossSalary = basicSalary + benefits;
     const payee = calculatePayee(grossSalary);
