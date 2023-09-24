@@ -1,3 +1,4 @@
+
 function calculateDemeritPoints(speed) { //create a function that takes the car's speed limit as input
     const speedLimit = 70; //declares the legal fixed speed limit using const
     const kmPerDemeritPoints = 5; //for every 5km/s above speed limit one demerit point is given
@@ -13,7 +14,11 @@ function calculateDemeritPoints(speed) { //create a function that takes the car'
       } else {
         console.log(`Demerit points: ${demeritPoints}`);
       }
-    }
   }
-  
-  
+}
+
+//example
+const carSpeed = 200;
+calculateDemeritPoints(carSpeed)
+
+
